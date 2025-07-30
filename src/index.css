@@ -1,68 +1,45 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+:root{
+  --color-brown: #53423e;
+  --color-lightBrown: #645550;
+  --color-darkBrown: #2c2523;
+  --color-black: #1e1917;
+  --color-white: #f1e1d9;
+  --color-cyan: #15d1e9;
+  --color-lightCyan: #88e5f0;
+  --color-darkCyan: #009fb3;
+  --color-orange: #fb9718;
+  --color-lightOrange: #fac27b;
+  --color-darkOrange: #d28422;
+  --color-grey: #626965;
+  --color-lightGrey: #978580;
+  --color-darkGrey: #3f4441;
+  --font-body: 'Josefin Sans';
+  --font-special: 'Roboto'; 
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+@theme {
+  --color-brown: var(--color-brown);
+  --color-lightBrown: var(--color-lightBrown);
+  --color-darkBrown: var(--color-darkBrown);
+  --color-black: var(--color-black);
+  --color-white: var(--color-white);
+  --color-cyan: var(--color-cyan);
+  --color-lightCyan: var(--color-lightCyan);
+  --color-darkCyan: var(--color-darkCyan);
+  --color-orange: var(--color-orange);
+  --color-lightOrange: var(--color-lightOrange);
+  --color-darkOrange: var(--color-darkOrange);
+  --color-grey: var(--color-grey);
+  --color-lightGrey: var(--color-lightGrey);
+  --color-darkGrey: var(--color-darkGrey);
+  --font-body: var(--font-body);
+  --font-special: var(--font-special);
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+body{
+  @apply bg-brown;
 }
