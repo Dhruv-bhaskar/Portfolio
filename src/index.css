@@ -19,6 +19,8 @@
   --color-darkGrey: #3f4441;
   --font-body: 'Josefin Sans';
   --font-special: 'Roboto'; 
+  --shadow-cyan: rgba(94, 206, 220, 0.5);
+  --shadow-orange: rgba(240, 169, 79, 0.5);
 }
 
 @theme {
@@ -38,8 +40,15 @@
   --color-darkGrey: var(--color-darkGrey);
   --font-body: var(--font-body);
   --font-special: var(--font-special);
+  --box-shadow-cyanShadow: 0px 0px 0px var(--shadow-cyan);
+  --box-shadow-cyanMediumShadow: 10px 10px 200px 150px var(--shadow-cyan);
+  --box-shadow-orangeMediumShadow: 10px 10px 200px 150px var(--shadow-orange);
 }
 
 body{
-  @apply bg-brown;
+  @apply bg-black;
+  height: 100%;
+  width: 100%;
+  
+  overflow-x: hidden;
 }
