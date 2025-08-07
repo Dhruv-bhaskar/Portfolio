@@ -49,16 +49,17 @@ const skills = [
   },
 ];
 
-const AllSkills = () => {
+const AllSkillsSM = () => {
   return (
-    <div>
-      <div className="flex items-center justify-center gap-2 max-w-[1200px mx-auto]">
+    <div className="grid grid-cols-2 sm:grid-cols-4 gap-12 my-12">
         {skills.map((items, index)=>{
-          return <SingleSkill key={index} text={items.skill} imgSvg={<items.icon/>} />
-        })}
-      </div>
+        return <div key={index} className="flex flex-col items-center">
+           <items.icon className="text-orange text-7xl"/>
+           <p className="text-white text-center mt-4">{items.skill}</p>
+        </div>
+    })}
     </div>
-  );
-};
+  )
+}
 
-export default AllSkills;
+export default AllSkillsSM

@@ -4,7 +4,7 @@ import AboutMeImage from './AboutMeImage'
 
 const AboutMeMain = () => {
   return (
-    <div className='flex flex-col sm:flex-row justify-between items-centre mx-auto max-w-[1200px] gap-12 mt-[100px]'>
+    <div id='about' className='flex flex-col sm:flex-row justify-between items-centre mx-auto max-w-[1200px] gap-12 mt-[100px]'>
         <div>
             <AboutMeText/>
         </div>
