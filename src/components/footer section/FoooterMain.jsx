@@ -14,7 +14,7 @@ const FoooterMain = () => {
     <div className="px-4">
       <div className="w-full h-[1px] bg-lightGrey mt-24"></div>
       <div className="hidden sm:flex justify-between max-w-[1200px] mx-auto mt-4">
-        <p className="text-3xl text-lightGrey">Dhruv Kumar Bhaskar</p>
+        <p className="sm:text-lg md:text-3xl text-lightGrey">Dhruv Kumar Bhaskar</p>
         <ul className="flex gap-4 text-xl text-lightGrey">
           {links.map((items, index) => {
             return (
@@ -25,7 +25,7 @@ const FoooterMain = () => {
                   spy={true}
                   duration={500}
                   offset={-145}
-                  className="hover:text-white transition-all duration-500"
+                  className="hover:text-white transition-all duration-500 text-sm sm:text-lg md:text-2xl"
                 >
                   {items.link}
                 </Link>

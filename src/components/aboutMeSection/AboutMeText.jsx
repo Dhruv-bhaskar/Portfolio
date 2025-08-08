@@ -6,7 +6,6 @@ const AboutMeText = () => {
     <div className="sm:mt-19 mt-0 flex flex-col items-centre text-center sm:items-start sm:text-left">
       <h2 className="text-5xl lg:text-6xl text-cyan mb-10">About Me</h2>
       <p className="text-white">
-        {" "}
         I’m Dhruv Kumar Bhaskar, a full stack web developer instructor with a
         passion for teaching and coding. I specialize in React and front-end
         development, helping students build real-world projects and master

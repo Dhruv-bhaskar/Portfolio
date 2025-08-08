@@ -13,7 +13,7 @@ const NavbarMain = () => {
   }
 
   return (
-    <nav className="max-w-[1300px] mx-auto px-4 w-full fixed top-[1.3rem] left-[50%] -translate-x-[50%] z-20 flex gap-4">
+    <nav className="max-w-[1200px] mx-auto px-4 w-full fixed top-[1.3rem] left-0 sm:left-[50%] sm:-translate-x-[50%] z-20 flex gap-4">
       <div className="flex justify-between w-full max-w-[1200px] mx-auto bg-black items-center p-6 rounded-r-full rounded-l-full border-1 border-orange">
         <NavbarLogo />
         <div className={`${menuOpen ? "sm:block" : "hidden"} lg:block`}>
