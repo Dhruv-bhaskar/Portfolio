@@ -1,13 +1,15 @@
 import React from "react";
 import ProjectText from "./ProjectText";
 import SingleProject from "./SingleProject";
+import { motion } from "framer-motion";
+import { fadeIn } from "../../Framer motion/variants";
 
 const projects = [
   {
     name: "Drive",
     align: "right",
     image: "/drive.png",
-    link: "",
+    link: "https://drive-ca34.onrender.com/",
   },
   {
     name: "Bloggish",
@@ -19,14 +21,21 @@ const projects = [
     name: "Taskify",
     align: "right",
     image: "/taskify.png",
-    link: "#",
+    link: "https://task-management-opal-nu.vercel.app/",
   },
 ];
 
 const ProjectMain = () => {
   return (
     <div id="projects">
-      <ProjectText />
+      <motion.div
+        variants={fadeIn("up", 0.2)}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: false, amount: 0 }}
+      >
+        <ProjectText />
+      </motion.div>
       <div className="mt-10 flex flex-col gap-7">
         {projects.map((projects, index) => {
           return (
@@ -35,6 +44,7 @@ const ProjectMain = () => {
               name={projects.name}
               align={projects.align}
               image={projects.image}
+              link={projects.link}
             />
           );
         })}

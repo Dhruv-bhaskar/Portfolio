@@ -35,7 +35,7 @@ const FoooterMain = () => {
         </ul>
       </div>
       <p className="text-right text-lightBrown mx-auto mt-2 mb-12">
-        © 2024 Abdelrahman | All Rights Reserved.
+        © 2025 Dhruv Kumar Bhaskar | All Rights Reserved.
       </p>
     </div>
   );

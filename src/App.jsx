@@ -3,7 +3,6 @@ import AboutMeMain from "./components/aboutMeSection/AboutMeMain";
 import ContactMeMain from "./components/Contactme section/ContactMeMain";
 import ExperienceMain from "./components/Experience section/ExperienceMain";
 import FoooterMain from "./components/footer section/FoooterMain";
-import Helper from "./components/Helper";
 import HeroGradient from "./components/hero section/HeroGradient";
 import HeroMain from "./components/hero section/HeroMain";
 import SubHeroSection from "./components/hero section/SubHeroSection";
@@ -26,7 +25,6 @@ function App() {
       <ProjectMain/>
       <ContactMeMain/>
       <FoooterMain/>
-      <Helper/>
     </main>
   );
 }
