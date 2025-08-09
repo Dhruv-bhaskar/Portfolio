@@ -12,9 +12,9 @@ const HeroPic = () => {
       className="flex justify-center items-center h-full"
     >
       <img
-        src="/avatar.jpg"
+        src="/profile.jpg"
         alt="photo comes here"
-        className="w-auto max-h-[360px] rounded-full mt-5 sm:mt-0"
+        className="w-auto max-h-[355px] rounded-full mt-5 sm:mt-0"
       />
 
     </motion.div>

@@ -1,16 +1,17 @@
-import React from 'react'
+import React from "react";
 
 const SkillsText = () => {
   return (
-    <div className='flex-col items-center mt-[100px]'>
-      <h2 className='text-5xl md:text-6xl text-cyan mb-10'>My Skills</h2>
-      <p className='text-lg text-center text-white'>
-        I not only work with these technologies but excellent in using them with
-        best practices to deliver high-quality results, I have been working with
-        all these skills to build my portfolio projects
+    <div className="flex-col items-center mt-[100px]">
+      <h2 className="text-5xl md:text-6xl text-cyan mb-10">My Skills</h2>
+      <p className="text-lg md:text-xl text-center text-white">
+        I not only work with these technologies but am also excellent at using
+        them with best practices to deliver high-quality results. I have been
+        working with all these skills to build my projects and
+        continue to refine my expertise.
       </p>
     </div>
-  )
-}
+  );
+};
 
-export default SkillsText
+export default SkillsText;

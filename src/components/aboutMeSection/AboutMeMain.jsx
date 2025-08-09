@@ -11,18 +11,18 @@ const AboutMeMain = () => {
       className="flex flex-col sm:flex-row justify-between items-centre mx-auto max-w-[1200px] gap-12 mt-[100px]"
     >
       <motion.div
-        variants={fadeIn("right", 0.2)}
+        variants={fadeIn("right", 0.1)}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: false, amount: 0.5 }}
+        viewport={{ once: false, amount: 0.3 }}
       >
         <AboutMeText />
       </motion.div>
       <motion.div
-        variants={fadeIn("left", 0.2)}
+        variants={fadeIn("left", 0.1)}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: false, amount: 0.5 }}
+        viewport={{ once: false, amount: 0.3 }}
         className="self-center"
       >
         <AboutMeImage />

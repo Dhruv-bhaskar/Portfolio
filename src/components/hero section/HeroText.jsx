@@ -14,7 +14,7 @@ const HeroText = () => {
         Full Stack Web Developer
       </motion.h2>
       <motion.h1 
-      variants={fadeIn('right', 0.4)}
+      variants={fadeIn('right', 0.3)}
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0 }}
@@ -22,12 +22,12 @@ const HeroText = () => {
         DHRUV KUMAR BHASKAR
       </motion.h1>
       <motion.p 
-      variants={fadeIn('up', 0.5)}
+      variants={fadeIn('up', 0.4)}
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0 }}
       className="text-white text-lg font-bold mt-4">
-        Hi, I am a passionate Web Developer
+        Crafting seamless digital experiences from front-end to back-end.
       </motion.p>
     </div>
   );

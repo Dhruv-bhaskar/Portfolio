@@ -23,6 +23,12 @@ const projects = [
     image: "/taskify.png",
     link: "https://task-management-opal-nu.vercel.app/",
   },
+  {
+    name: "StudySync",
+    align: "left",
+    image: "/studysync.png",
+    link: "https://study-sync-lake.vercel.app/",
+  }
 ];
 
 const ProjectMain = () => {
