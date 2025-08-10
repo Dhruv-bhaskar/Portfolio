@@ -9,6 +9,7 @@ const ProjectText = () => {
         responsive websites to full-stack applications and
         complex front-end interfaces.
       </p>
+      <div className="border border-cyan/65 animate-pulse"></div>
     </div>
   );
 };
