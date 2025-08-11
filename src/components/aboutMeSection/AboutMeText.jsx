@@ -6,7 +6,7 @@ const AboutMeText = () => {
     <div className="sm:mt-19 mt-0 flex flex-col items-centre text-center sm:items-start sm:text-left">
       <h2 className="text-5xl lg:text-6xl text-cyan mb-10">About Me</h2>
       <p className="text-white text-lg sm:text-xl">
-        I'm Dhrun Kumar Bhaskar, a full-stack MERN web developer with a passion
+        I'm Dhruv Kumar Bhaskar, a full-stack MERN web developer with a passion
         for building robust and scalable applications. I specialize in the MERN
         stack (MongoDB, Express.js, React, and Node.js), and I enjoy creating
         dynamic, user-friendly experiences. I am a continuous learner, always
@@ -14,11 +14,18 @@ const AboutMeText = () => {
         technologies. I am confident in my ability to develop innovative
         solutions and contribute to successful projects.
       </p>
-      <Link to="projects" smooth={true} spy={true} duration={500} offset={-145}>
+      <div className="flex items-center justify-center gap-5">
+        <Link to="projects" smooth={true} spy={true} duration={500} offset={-145}>
         <button className="w-[8rem] self-center sm:self-start border border-orange rounded-full px-4 py-2 text-lg text-white mt-10 hover:bg-orange transition-all duration-500 cursor-pointer ">
           My Projects
         </button>
       </Link>
+      <a href="https://drive.google.com/file/d/1JOcp2ISL7_49rx6Zr212p5UECbGsqdaN/view?usp=sharing" target="_blank">
+        <button className="w-[8rem] self-center sm:self-start border border-orange rounded-full px-4 py-2 text-lg text-white mt-10 hover:bg-orange transition-all duration-500 cursor-pointer ">
+          Resume
+        </button>
+      </a>
+      </div>
     </div>
   );
 };

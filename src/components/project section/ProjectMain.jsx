@@ -17,7 +17,7 @@ const projects = [
     name: "Bloggish",
     align: "left",
     image: "/bloggish.png",
-    link: "https://blog-website-one-rust.vercel.app/",
+    link: "https://blog-website-dhruvs-projects-8fce1ee0.vercel.app/",
     info: "A full-featured blog website where users can create, read, update, and delete their blog posts. It includes a complete login/logout system, giving users control over their content.",
     repo: "https://github.com/Dhruv-bhaskar/blog-website.git"
   },
@@ -50,7 +50,7 @@ const ProjectMain = () => {
       >
         <ProjectText />
       </motion.div>
-      <div className="mt-10 flex flex-col gap-10">
+      <div className="mt-10 flex flex-col gap-20">
         {projects.map((projects, index) => {
           return (
             <SingleProject

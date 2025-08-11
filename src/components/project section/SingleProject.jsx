@@ -16,7 +16,7 @@ const SingleProject = ({ name, align, image, link, info, repo }) => {
     >
       <div className="flex flex-col gap-4">
         <h2 className="text-2xl sm:text-3xl text-orange">{name}</h2>
-        <p className="text-white/70">
+        <p className="text-stone-200 text-lg">
           {info}
         </p>
         <div className="mx-auto flex gap-6 px-2 py-1 max-w-[12rem] rounded-lg hover:bg-cyan/20 transition-all duration-500">
