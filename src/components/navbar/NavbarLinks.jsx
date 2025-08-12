@@ -11,7 +11,7 @@ const links = [
 
 const NavbarLinks = () => {
   return (
-    <ul className="lg:mx-14 flex flex-col lg:flex-row lg:gap-0 gap-6 text-white text-lg lg:text-[1.1rem] absolute lg:top-5 top-[120px] left-[50%] -translate-x-[50%] bg-cyan/30 lg:bg-black w-full lg:w-[31rem] backdrop-blur-lg py-4">
+    <ul className="lg:mx-14 flex flex-col lg:flex-row lg:gap-0 gap-6 text-white text-lg lg:text-[1.1rem] absolute lg:top-5 top-[120px] left-[50%] -translate-x-[50%] bg-cyan/30 lg:bg-black/0 w-full lg:w-[31rem] md:backdrop-blur-none backdrop-blur-lg py-4">
       {links.map((link, index) => {
         return (
           <li key={index} className="group lg:w-[10rem]">
