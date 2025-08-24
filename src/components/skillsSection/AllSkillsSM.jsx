@@ -8,6 +8,7 @@ import { SiRedux } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa6";
 import { SiMongodb } from "react-icons/si";
+import { BiLogoPostgresql } from "react-icons/bi";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../Framer motion/variants";
 
@@ -47,6 +48,10 @@ const skills = [
   {
     skill: "MongoDB",
     icon: SiMongodb,
+  },
+  {
+    skill: "Postgresql",
+    icon: BiLogoPostgresql,
   },
 ];
 
