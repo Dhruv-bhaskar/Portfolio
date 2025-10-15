@@ -21,7 +21,7 @@ const AboutMeText = () => {
           My Projects
         </button>
       </Link>
-      <a href="https://drive.google.com/file/d/1gmM1w5xYDRXlEi5nginETnmfxk93DMiI/view?usp=drive_link" target="_blank">
+      <a href="https://drive.google.com/file/d/19N_z0mDi_EzN4oMIcNguz1RVrGr2ZWai/view?usp=sharing" target="_blank">
         <button className="w-[8rem] self-center sm:self-start border border-orange rounded-full px-4 py-2 text-lg text-white mt-10 hover:bg-orange transition-all duration-500 cursor-pointer ">
           Resume
         </button>
