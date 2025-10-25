@@ -9,6 +9,7 @@ import { SiExpress } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa6";
 import { SiMongodb } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
+import { SiNextdotjs } from "react-icons/si";
 import SingleSkill from "./SingleSkill";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../Framer motion/variants";
@@ -46,6 +47,10 @@ const skills = [
   {
     skill: "NodeJS",
     icon: FaNodeJs,
+  },
+  {
+    skill: "NextJS",
+    icon: SiNextdotjs,
   },
   {
     skill: "MongoDB",
