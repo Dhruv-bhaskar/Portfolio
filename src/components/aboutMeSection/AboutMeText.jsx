@@ -6,9 +6,8 @@ const AboutMeText = () => {
     <div className="sm:mt-19 mt-0 flex flex-col items-centre text-center sm:items-start sm:text-left">
       <h2 className="text-5xl lg:text-6xl text-cyan mb-10">About Me</h2>
       <p className="text-white text-lg sm:text-xl">
-        Full-stack MERN web developer with a passion
-        for building robust and scalable applications. I specialize in the MERN
-        stack (MongoDB, Express.js, React, and Node.js), and I enjoy creating
+        Full-stack Web Developer with a passion
+        for building robust and scalable applications. I enjoy creating
         dynamic, user-friendly experiences. I am a continuous learner, always
         striving to improve my skills and stay updated with the latest
         technologies. I am confident in my ability to develop innovative

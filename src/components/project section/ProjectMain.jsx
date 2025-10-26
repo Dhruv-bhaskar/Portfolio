@@ -6,12 +6,12 @@ import { fadeIn } from "../../Framer motion/variants";
 
 const projects = [
   {
-    name: "Drive",
+    name: "ChefAI",
     align: "right",
-    image: "/drive.png",
-    link: "https://drive-ca34.onrender.com/",
-    info: "A cloud storage platform for image uploads. This project features user authentication and authorization with a secure login system, allowing users to privately store and manage their image files.",
-    repo: "https://github.com/Dhruv-bhaskar/Drive.git"
+    image: "/ChefAI.png",
+    link: "https://chefai-beryl.vercel.app/",
+    info: "A dynamic AI-powered recipe generator integrated with a weekly meal planning system. Users can create custom recipes using Google Gemini, save favorites, search, sort, filter their recipe collection and easily add meals onto a calendar to organize their week. Built with Next.js and Supabase.",
+    repo: "https://github.com/Dhruv-bhaskar/Recipe-Ai.git"
   },
   {
     name: "Bloggish",
@@ -30,12 +30,12 @@ const projects = [
     repo: "https://github.com/Dhruv-bhaskar/Task-management.git"
   },
   {
-    name: "StudySync",
+   name: "Drive",
     align: "left",
-    image: "/studysync.png",
-    link: "https://study-sync-lake.vercel.app/",
-    info: "A front-end project built using only HTML, CSS, and JavaScript. It demonstrates fundamental web development skills and a clean, user-friendly interface.",
-    repo: "https://github.com/Dhruv-bhaskar/Study-sync.git"
+    image: "/drive.png",
+    link: "https://drive-ca34.onrender.com/",
+    info: "A cloud storage platform for image uploads. This project features user authentication and authorization with a secure login system, allowing users to privately store and manage their image files.",
+    repo: "https://github.com/Dhruv-bhaskar/Drive.git"
   },
 ];
 
